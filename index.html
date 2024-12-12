@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Practice 12</title>
+    <link rel="stylesheet" type="" href="style.css" />
+    <link rel="stylesheet" type="" href="media.css" />
+  </head>
+  <body>
+    <header>
+      <div class="popup">
+        <a href="#">Main</a>
+        <a id="show_add_photo" href="#">Photo</a>
+        <a href="#">Posts</a>
+        <a href="#">Account</a>
+      </div>
+      <div class="mobile_icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+    <h1>Galery</h1>
+    <div id="grid">
+      <div class="photo">
+        <img src="https://picsum.photos/seed/1/1920/1080" alt="" />
+        <p>Photo #1</p>
+      </div>
+      <div class="photo">
+        <img src="https://picsum.photos/seed/2/1920/1080" alt="" />
+        <p>Photo #2</p>
+      </div>
+      <div class="photo">
+        <img src="https://picsum.photos/seed/3/1920/1080" alt="" />
+        <p>Photo #3</p>
+      </div>
+      <div class="photo">
+        <img src="https://picsum.photos/seed/4/1920/1080" alt="" />
+        <p>Photo #4</p>
+      </div>
+    </div>
+    <div id="add_new_photo">
+      <div>
+        <input id="new_photo_src" type="text" placeholder="Photo" />
+        <input id="new_photo_text" type="text" placeholder="Title" />
+        <button id="add_photo" type="button">Add</button>
+        <button id="cancel" type="button">Cancel</button>
+      </div>
+    </div>
+    <div id="popup_photo">
+      <img src="" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
